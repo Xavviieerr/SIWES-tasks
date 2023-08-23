@@ -1,0 +1,229 @@
+@font-face {
+    font-family:NeueMontrealBold;
+    src: url(NeueMontreal-Bold.otf);
+}
+@font-face {
+    font-family:NeueMontrealRegular;
+    src: url(NeueMontreal-Regular.otf);
+}
+@font-face {
+    font-family:NeueMontrealLight;
+    src: url(NeueMontreal-Light.otf);
+}
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: neueMontrealBold, NeueMontrealRegular, NeueMontrealLight;
+    
+}
+.section{
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(shivansh-sethi.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    margin-top: 5%;
+    margin-left :39%;
+    font-size:39px; 
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    position: absolute;
+    color:rgb(223, 106, 106);
+}
+.question{
+    letter-spacing:2px;
+}
+.redirect{
+    text-decoration:none;
+    color:brown
+}
+.big-card{
+    position: absolute;
+    top:19%;
+    left:35%;
+    height:80%;
+    width: 30%;
+    background-color:rgb(141, 106, 96);
+    border: 2px solid black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    padding: 30px;
+}
+.question{
+    font-family: NeueMontrealLight;
+    
+}
+.container{
+    margin-top: 50px;
+
+}
+label{
+    font-family: NeueMontrealRegular;
+    font-size: 17px;
+    font-weight: bold;
+}
+input{
+    position: absolute;
+    width: 80%;
+    height: 30px;
+    border-style: none;
+    margin-top: 19px;
+    border-radius: 6px;
+    left: 39px;
+    padding-left: 20px;
+}
+/* #password-confirmation{
+    margin-top: 30px;
+} */
+.button{
+    margin-top: 65px;
+    width: 89%;
+    height: 39px;
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(122, 48, 48);
+}
+#p-zero, #p-one, #p-two, #p-three, #p-four{
+    height:10px;
+    font-size: small;
+    color:rgb(167, 48, 48);
+    letter-spacing: 2px;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 1254px){
+    h1{
+        margin-top: 2%;
+        margin-left:44%;
+        font-size:32px; 
+        margin-bottom: 0px;
+        letter-spacing: 1px;
+    }
+    .big-card{
+        top:15%;
+        left:17%;
+        height:100%;
+        width: 70%;
+        padding: 20px;
+    }
+    .section{
+        height: 600px;
+    }
+    input{
+        width: 60%;
+        margin-top: 18px;
+        border-radius: 6px;
+        left: 20%;
+    }
+    .container{
+        margin-top: 45px;
+    }
+    .button{
+        width: 70%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    h1{
+        margin-top: 2%;
+        margin-left:41%;
+        font-size:32px; 
+        margin-bottom: 0px;
+        letter-spacing: 1px;
+    }
+    .big-card{
+        top:15%;
+        left:17%;
+        height:100%;
+        width: 70%;
+        padding: 20px;
+    }
+    .section{
+        height: 600px;
+    }
+    input{
+        width: 60%;
+        margin-top: 18px;
+        border-radius: 6px;
+        left: 20%;
+    }
+    .container{
+        margin-top: 45px;
+    }
+    .button{
+        width: 70%;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px){
+    h1{
+        margin-top: 4%;
+        margin-left:40%;
+        font-size:30px; 
+        margin-bottom: 0px;
+        letter-spacing: 1px;
+    }
+    .big-card{
+        top:15%;
+        left:12%;
+        height:100%;
+        width: 80%;
+        padding: 20px;
+    }
+    .section{
+        height: 600px;
+    }
+    input{
+        width: 70%;
+        margin-top: 18px;
+        border-radius: 6px;
+        left: 17%;
+    }
+    .container{
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1{
+        margin-top: 7%;
+        margin-left:24%;
+        font-size:26px; 
+        margin-bottom: 0px;
+        letter-spacing: 1px;
+    }
+    .big-card{
+        top:15%;
+        left:12%;
+        height:100%;
+        width: 80%;
+        padding: 20px;
+    }
+    .section{
+        height: 600px;
+    }
+    input{
+        width: 70%;
+        margin-top: 18px;
+        border-radius: 6px;
+        left: 17%;
+    }
+    .container{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+

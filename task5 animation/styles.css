@@ -1,0 +1,29 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(205, 205, 243);
+}
+.container{
+    margin-top: 200px;
+    margin-left: 560px;
+}
+h1{
+    margin-left: 40px;
+}
+@keyframes dancer{
+    0% {left: 0px}
+    50% {left: 110px}
+    100% {left: 220px}
+}
+.image,.image-sub{
+    height: 150px;
+    width:150px;
+    
+}
+.image{
+    position:relative;
+    animation: dancer 2s linear 2s both infinite alternate ;
+}

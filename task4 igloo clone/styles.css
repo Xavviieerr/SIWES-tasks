@@ -1,0 +1,492 @@
+/*allcontents design starts here*/
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Neue-Montreal;
+}
+@font-face {
+    font-family: Neue-Montreal;
+    src: url(NeueMontreal-Regular.otf);
+}
+@font-face {
+    font-family: Neue-Montreal2;
+    src: url(NeueMontreal-Light.otf);
+}
+.section1{
+    padding:0px;
+    height:100vh;
+    width:100vw;
+}
+
+
+/*home section design starts here*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width:100vw;
+    height: 9vh;
+    padding:20px 40px;
+    background-color: white;
+    z-index: 1000;
+    border-bottom: 1px solid black;
+}
+.logis{
+    height: 26px;
+    margin-right: 20px;
+}
+.left-elements, .right-elements{
+    display:flex;
+    align-items: center;
+}
+.list{
+    display:flex;
+    list-style-type: none;
+    margin-left: 5px;
+}
+.nav-links, .nav-links2{
+ text-decoration: none;
+ font-size: 109%;
+ color: black;
+ margin: 0px 17px;
+ margin-top: 2px;
+}
+.bag-c, .bag{
+    height: 20px;
+    width:17px;
+}
+.hero-text{
+    position:absolute;
+    top:50%;
+    left:39%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.preload-critical{
+    position: absolute;
+    width:100vw;
+}
+    #video{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+}
+
+
+.hero-text{
+    margin-left: 0px;
+}
+.hero-text>p{
+    font-size: 130%;
+    font-weight: bold;
+}
+.hero-text > H1{
+    font-size: 210%;
+    font-weight: bolder;
+}
+/*home section design ends here*/
+
+
+
+/*new arrivals section design starts here*/
+.section2{
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+.new-arrivals{
+    font-size:170%;
+    margin: 20px;
+    margin-left: 43%;
+}
+.container1{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 6px;
+    width:90vw;
+    margin-left: 2%;
+}
+.new-arrivals-card{
+    height: 482px;
+    width: 326px;
+}
+.demo-card{
+    position: relative;
+    height: 80%;
+    width: 100%;
+    background-color: rgb(243, 240, 240);
+    border-radius: 9px;
+}
+.demo-card-img{
+    height: 100%;
+    width: 100%;
+}
+.explaination{
+    font-size:16px;
+    margin-top: 8px;
+}
+.values{
+    font-size: 15px;
+}
+/*new arrivals section design ends here*/
+
+
+
+/*two images section design starts here*/
+.two-images{
+    display:flex;
+    justify-content: space-between;
+}
+.two-images-child, .two-images-child2{
+    height:470px;
+    width:670px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(lying-guy.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.two-images-child2{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(balance-guy.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+/*two images section design ends here*/
+
+
+/*bigger image section design starts here*/
+.bigger-image{
+    margin-top: 9px;
+    height: 500px;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(lovers.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text-cont{
+    margin-top:210px;
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two-text{
+    font-size: 30px;
+}
+.two-btn{
+    height: 40px;
+    width: 118px;
+    background-color: white;
+    color:black;
+    border-style: none;
+    border-radius: 6px;
+    margin-top: 9px;
+}
+.two-btn:hover{
+    background-color: black;
+    color:white;
+}
+.bigger-text-cont{
+    padding-top:210px;
+    padding-left:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*bigger images section design ends here*/
+
+
+
+/*footer section design starts here*/
+.footer{
+    background-color: whitesmoke;
+}
+.footer-images{
+    display:flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 14px;
+    padding: 0px 20px;
+}
+.footer-img{
+    height:160px;
+    width:160px;
+}
+.foot-icons{
+    display:flex;
+    flex-wrap: wrap;
+}
+.line, .line2{
+    height:1px;
+    width:100%;
+    background-color: black;
+}
+.foot-icons-d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+    width: 330px;
+    padding-top: 30px;
+    border-right: 1px solid black;
+}
+.foot-icons-de{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+.foot-img-c, .foot-img {
+    height: 50px;
+    width:50px;
+}
+.line2{
+    margin-bottom: 50px;
+}
+.contacts{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 140px;
+    margin:65px;
+}
+.contact1{
+ width: 50%;
+ height: 14px;
+ display: flex;
+ flex-wrap: wrap;
+ column-gap: 3%;
+}
+.contact2{
+    width:250px;
+}
+.cont-fc,.cont-fc1{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.cont{
+    width:116px;
+
+}
+.fc{
+    font-size:12.5px;
+}
+.btn{
+    height: 37px;
+    width:112px;
+    background-color: black;
+    color:white;
+    border-style: none;
+    border-radius: 3px;
+    margin-top: 9px;
+}
+.last-note{
+    display:flex;
+    justify-content: space-between;
+    margin: 6px 5px;
+}
+.last-one{
+    font-size: 12.5px;
+}
+.last-two{
+    font-size: 12.5px;
+}
+/*footer section ends here*/
+
+
+
+/*MEDIA QUERIES*/
+@media (max-width:576px){
+    .section1{
+        height:50vh;
+    }
+    .nav-links{
+        font-size: 0px;
+        margin: 0px;
+        margin-top: 0px;
+       }
+       #video{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+}
+    .hero-text{
+        position: absolute;
+        top: 400px; 
+        left: 185px;
+    }
+    .hero-text>p{
+        font-size: 19px;
+    }
+    .hero-text > H1{
+        font-size: 25px;
+    }
+       .nav-links2{
+        font-size: 12px;
+       }
+       .logis{
+        height: 20px;
+        width:75px;
+       }
+    .section2{
+        margin-top: 20px;
+        margin-bottom: 4px;
+    }
+    .container1{
+        display:grid;
+       grid-template-columns: auto auto;
+        gap: 1px;
+        width:100vw;
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+    .new-arrivals{
+        margin-top: 385px;
+        margin-left: 222px;
+        font-size:20px;
+    }
+    .new-arrivals-card{
+        /* height: 182px; */
+        width: 266px;
+    }
+    .demo-card{
+        height: 74%;
+        width: 100%;
+    }
+    .two-images{
+        display:flex;
+        flex-direction: column;
+    }
+    .two-images-child{
+        width:97vw;
+        height: 100vh;
+        margin: 10px;
+        
+    }
+    .two-images-child2,  .bigger-image{
+        width:97vw;
+        height: 100vh;
+        margin: 10px 0px 10px 10px;
+    }
+    .footer-img{
+        margin:5px;
+        height:240px;
+        width:240px;
+    }
+    .foot-icons{
+        flex-direction: column;
+    }
+    .foot-icons-d{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        padding-top: 15px;
+        padding-left: 20px;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .foot-icons-de{
+        display: flex;  
+        flex-direction: row;
+        align-items: center;
+        /* padding-top: 15px; */
+        padding-left: 20px;
+        padding-bottom: 16px;
+    }
+    .foot-icons-text{
+        padding-left: 14px;
+    }
+    .contacts{
+        margin: 12px;
+        margin-left: 40px;
+        width: 500px;
+    }
+    .contact1{
+        width:100%;
+        margin-top: 140px;
+    }
+    .cont{
+        width: 40px;
+        margin-left: 4px;
+    }
+    .contact2{
+        width: 500px;
+        position:absolute;
+    }
+    .cont-fc1{
+        font-size: 18px;
+        margin-left: 140px;
+        margin-bottom: 10px;
+    }
+    .cont{
+        margin-left: 120px;
+        margin-bottom: 20px;
+        margin-top: 7px;
+    }
+    .cont-fc{
+        font-size: 14px;
+    }
+    .fc{
+        font-size:15px;
+        display: flex;
+    }
+    .btn{
+        width:100%;
+    }
+    .last-note{
+        border-top: 1px solid black;
+        margin-top: 250px;
+        padding:15px 0px;
+    }
+
+}
+
+@media (min-width:577px) and (max-width:768px){
+    .container1{
+        display: grid;
+      grid-template-columns: auto auto;
+        width:100vw;
+        margin-left: 1%;
+    }
+    .new-arrivals-card{
+        height: 400px;
+        width: 300px;
+    }
+    .nav-links{
+        display:none;
+    }
+    .foot-icons-d{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 130px;
+        width: 330px;
+        padding-top: 30px;
+        border-right:none;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .container1{
+        display: grid;
+      grid-template-columns: auto auto auto;
+        width:100vw;
+        margin-left: 1%;
+    }
+    .foot-icons-d{
+        width: 240px;
+    }
+  }
